@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class UIInteraction : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class UIInteraction : MonoBehaviour
 
     void Update()
     {
-        if (inZona && Input.GetKeyDown(KeyCode.E))
+        if (inZona && Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
             // Invochiamo qualsiasi cosa sia stata collegata nell'Inspector
             onInterazione?.Invoke();
