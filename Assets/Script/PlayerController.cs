@@ -90,8 +90,8 @@ public class PlayerController : MonoBehaviour
         // Se ci stiamo muovendo prevalentemente in orizzontale (X)
         if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
         {
-            if (moveInput.x > 0) CambiaSpriteDirezione("right");
-            else if (moveInput.x < 0) CambiaSpriteDirezione("left");
+            if (moveInput.x > 0) CambiaSpriteDirezione("left");
+            else if (moveInput.x < 0) CambiaSpriteDirezione("right");
         }
         // Se ci stiamo muovendo prevalentemente in verticale (Y)
         else
@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
 
     void CambiaSpriteDirezione(string direzione)
     {
-        switch (direzione.ToLower())
+        switch (direzione.ToUpper())
         {
             case "UP":
                 mySpriteRenderer.sprite = spriteUp;

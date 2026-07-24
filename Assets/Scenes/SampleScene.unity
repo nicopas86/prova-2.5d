@@ -1972,9 +1972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   mainCamera: {fileID: 330585545}
   spriteUp: {fileID: 21300000, guid: f5869872f07026a4eb8dadb17dad1f20, type: 3}
-  spriteDown: {fileID: 21300000, guid: c835ada0648a0504b92660be3ec659df, type: 3}
+  spriteDown: {fileID: 21300000, guid: f38b188b6f3f8b841ab1b78365054f5a, type: 3}
   spriteLeft: {fileID: 21300000, guid: c835ada0648a0504b92660be3ec659df, type: 3}
-  spriteRight: {fileID: 21300000, guid: c835ada0648a0504b92660be3ec659df, type: 3}
+  spriteRight: {fileID: 21300000, guid: 85a7e5a9a639d6446b6f2e0e7ee3b149, type: 3}
   normalMoveSpeed: 5
   runMoveSpeed: 10
 --- !u!1 &1294155045
