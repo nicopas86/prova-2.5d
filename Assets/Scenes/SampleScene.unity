@@ -2424,6 +2424,7 @@ GameObject:
   - component: {fileID: 1847600880}
   - component: {fileID: 1847600875}
   - component: {fileID: 1847600881}
+  - component: {fileID: 1847600882}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -2587,6 +2588,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2, y: 0.8, z: 0.2}
   m_Center: {x: -0.030228496, y: 0.43715155, z: 0}
+--- !u!114 &1847600882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847600874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81470a07b8debf44189b92e76808e2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCSetting
+  target: {fileID: 1847600877}
+  mainCamera: {fileID: 330585545}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
