@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Interruttore : MonoBehaviour
+public class DoorTrigger : MonoBehaviour
 {
     // trascina qui il "Porta_Hinge" (l'oggetto vuoto padre)
     public GameObject portaHinge;
