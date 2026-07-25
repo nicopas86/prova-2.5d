@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class UIHealthManager : MonoBehaviour
 {
     [Header("Sprite dei Cuori")]
     [SerializeField] private Sprite fullHeart;
